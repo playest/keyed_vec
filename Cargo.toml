@@ -1,0 +1,15 @@
+[package]
+name = "keyed_vec"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+description = "Vector type where the key is a custom object to avoid mixing indices between vectors"
+homepage = ""
+documentation = ""
+repository = ""
+readme = "README.md"
+keywords = ["vec", "strongly-typed"]
+categories = ["data-structures"]
+
+[dependencies]
+delegate = "0.10.0"
